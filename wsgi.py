@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello():
-    return "OpenShift course presented by TetraNoodle Technologies"
+    return "OpenShift is awesome"
 
 
 if __name__ == "__main__":
